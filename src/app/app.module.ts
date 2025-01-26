@@ -8,6 +8,9 @@ import { NavbarComponent } from './_components/navbar/navbar.component';
 import { FooterComponent } from './_components/footer/footer.component';
 import { FormsComponent } from './_components/forms/forms.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { RecipeComponent } from './pages/recipe/recipe.component';
+import { FeedbacksComponent } from './pages/feedbacks/feedbacks.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    FormsComponent
+    FormsComponent,
+    AboutUsComponent,
+    RecipeComponent,
+    FeedbacksComponent
   ],
   imports: [
     BrowserModule,
