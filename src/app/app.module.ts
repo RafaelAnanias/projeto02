@@ -11,6 +11,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { RecipeComponent } from './pages/recipe/recipe.component';
 import { FeedbacksComponent } from './pages/feedbacks/feedbacks.component';
+import { LocationComponent } from './pages/location/location.component';
+import { EventsComponent } from './pages/events/events.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { PaymentMethodsComponent } from './pages/payment-methods/payment-methods.component';
+import { CustomerSupportComponent } from './pages/customer-support/customer-support.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +26,12 @@ import { FeedbacksComponent } from './pages/feedbacks/feedbacks.component';
     FormsComponent,
     AboutUsComponent,
     RecipeComponent,
-    FeedbacksComponent
+    FeedbacksComponent,
+    LocationComponent,
+    EventsComponent,
+    ContactComponent,
+    PaymentMethodsComponent,
+    CustomerSupportComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,73 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.payment-methods-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-methods-container h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #e86a22; /* Cor de destaque */
+}
+
+.payment-methods-container p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.payment-methods {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.payment-method {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.payment-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.payment-method p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .payment-methods-container {
+      padding: 15px;
+  }
+
+  .payment-method {
+      padding: 15px;
+  }
+}
