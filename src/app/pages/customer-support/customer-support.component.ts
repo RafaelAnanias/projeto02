@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrl: './customer-support.component.css'
 })
 export class CustomerSupportComponent {
-
+  messagePhone(){
+    alert('+55 (84) 99999-9999')
+  }
+  messageMail(){
+    alert('padaria@gmail.com')
+  }
+  messageSocial(){
+    alert('Instagram: @Padaria \n Facebook: Padaria' )
+  }
+  messageFAQ(){
+    alert('O FAQ funciona entre 08:00 e 22:00')
+  }
 }
